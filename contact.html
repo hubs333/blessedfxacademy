@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>MyBusiness - Home</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+
+
+
+
+</head>
+
+<body>
+
+
+
+<!-- Hamburger Button -->
+
+<button class="menu-btn" id="menu-btn">&#9776;</button>
+
+
+
+<!-- Sidebar -->
+
+<div class="sidebar" id="sidebar">
+
+<a href="index.html">📈MENTORSHIP💎</a>
+
+<a href="learn.html">📙LEARN BASICS📚</a>
+
+<a href="contact.html">📞CONTACT US☎️</a>
+
+</div>
+
+
+<style>
+
+    body {
+    
+    font-family: Arial, sans-serif;
+    
+    background: #f9f9f9;
+    
+    display: flex;
+    
+    justify-content: center;
+    
+    align-items: center;
+    
+    height: 100vh;
+    
+    margin: 0;
+    
+    }
+    
+    
+    
+    .contact-container {
+    
+    text-align: center;
+    
+    }
+    
+    
+    
+    h1 {
+    
+    margin-bottom: 20px;
+    
+    color: #333;
+    
+    }
+    
+    
+    
+    .social-buttons {
+    
+    display: flex;
+    
+    flex-wrap: wrap;
+    
+    gap: 15px;
+    
+    justify-content: center;
+    
+    }
+    
+    
+    
+    .social-buttons a {
+    
+    display: inline-block;
+    
+    padding: 12px 25px;
+    
+    border-radius: 8px;
+    
+    color: white;
+    
+    font-weight: bold;
+    
+    text-decoration: none;
+    
+    transition: transform 0.2s, opacity 0.2s;
+    
+    }
+    
+    
+    
+    .social-buttons a:hover {
+    
+    transform: scale(1.1);
+    
+    opacity: 0.85;
+    
+    }
+    
+    
+    
+    /* Individual button colors */
+    
+    .facebook { background: #1877f2; }
+    
+    .twitter { background: #1da1f2; }
+    
+    .tiktok { background: #000000; }
+    
+    .instagram { background: #e4405f; }
+    
+    .whatsapp { background: #25d366; }
+    
+    .telegram { background: #0088cc; }
+    
+    </style>
+    
+    </head>
+    
+    <body>
+    
+    <div class="contact-container">
+    
+    <h1><strong>Contact us</strong></h1>
+    
+    <div class="social-buttons">
+    
+    <a href="https://facebook.com/" target="_blank" class="facebook">Facebook</a>
+    
+    <a href="https://twitter.com/" target="_blank" class="twitter">Twitter</a>
+    
+    <a href="https://tiktok.com/" target="_blank" class="tiktok">TikTok</a>
+    
+    <a href="https://instagram.com/" target="_blank" class="instagram">Instagram</a>
+    
+    <a href="https://wa.me/message/VOUJ3MBRIT3DA1" target="_blank" class="whatsapp">WhatsApp</a>
+    
+    <a href="https://t.me/yourusername" target="_blank"
+    
+    class="telegram">Telegram</a>
+    
+    </div>
+    
+    </div>
+    
+    
+
+</div>
+
+</div>
+
+
+
+<script>
+
+const menuBtn = document.getElementById('menu-btn');
+
+const sidebar = document.getElementById('sidebar');
+
+const content = document.getElementById('content');
+
+menuBtn.addEventListener('click', () => {
+
+sidebar.classList.toggle('show');
+
+content.classList.toggle('push');
+
+});
+
+</script>
+
+</body>
+
+</html>
